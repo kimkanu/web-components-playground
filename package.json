@@ -1,0 +1,22 @@
+{
+    "name": "web-components-playground",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@twind/core": "^1.1.3",
+        "@twind/preset-tailwind": "^1.1.4",
+        "@twind/with-web-components": "^1.1.3",
+        "@types/node": "^18.15.11",
+        "lit": "^2.7.1",
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0",
+        "vite-plugin-html": "^3.2.0",
+        "vite-plugin-no-bundle": "^2.0.2"
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Subdirectory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="view-transition" content="same-origin">
+  <link rel="icon" href="/vite.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.7.1/dist/es-module-shims.js"></script>
+  <script type="module" src="/src/components/simple-greeting.ts"></script>
+  <script type="module" src="/src/components/waving-emoji.ts"></script>
+  <link rel="prefetch" href="/" as="document">
+  <style>
+    :root {
+      background-color: rgb(226, 232, 240);
+    }
+
+  </style>
+</head>
+
+<simple-greeting name="subdirectory?" to="/">
+  <waving-emoji class="h-fit">👋</waving-emoji>
+</simple-greeting>
